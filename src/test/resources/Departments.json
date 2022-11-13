@@ -1,0 +1,34 @@
+[
+  {
+    "parent": {
+      "parentTitle": null
+    },
+    "organizationId": 29,
+    "isActive": false,
+    "code": "dep99985",
+    "departmentId": 284,
+    "name": "Accounting"
+  },
+  {
+    "parent": {
+      "parentTitle": null,
+      "parentId": null
+    },
+    "organizationId": 29,
+    "isActive": true,
+    "code": "secdep88898",
+    "departmentId": 274,
+    "name": "Security Department"
+  },
+  {
+    "parent": {
+      "parentTitle": "Security Department",
+      "parentId": 274
+    },
+    "organizationId": 29,
+    "isActive": true,
+    "code": "inssecdep722025",
+    "departmentId": 276,
+    "name": "Information Security Department"
+  }
+]
